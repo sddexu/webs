@@ -1,0 +1,19 @@
+table, th, td {
+		border: 1px solid black;
+				}
+table{
+	border-collapse: collapse;
+		}
+th{
+	background-color: blue;
+	color: white;
+	}
+p{
+	font-weight: bold;
+	}
+p::first-letter {
+		text-transform: uppercase;
+				}
+td{
+	text-align: center;
+	}

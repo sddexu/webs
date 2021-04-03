@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Example of CSS Layers Effect</title>
+<style>
+    .container{
+        position: relative;
+    }
+    .box{
+        width: 180px;
+        height: 130px;
+        opacity: 0.9;
+        position: absolute;
+    }
+    .img1{
+        position:absolute;
+    	top: 30px;
+    	left: 50px;
+    	z-index: 1;
+    }
+    .img2{
+    	position:absolute;
+    	top: 60px;
+    	left: 100px;
+    	z-index: 2;
+        
+    }
+    
+</style>
+</head>
+<body>
+    <div class="container">
+        <img class="box img1" src="../images/netflix.png">
+        <img class="box img2" src="../images/cbs.png">
+    </div>
+</body>
+</html>
